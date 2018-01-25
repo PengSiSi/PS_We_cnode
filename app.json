@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/topic/topic",
+    "pages/recruitment/recruitment",
+    "pages/notice/notice",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#444",
+    "navigationBarTitleText": "CNodeJS 社区",
+    "navigationBarTextStyle": "#fff"
+  },
+    "tabBar": {
+      "selectedColor": "#80bd01",
+      "list": [
+        {
+          "pagePath": "pages/topic/topic",
+          "text": "话题",
+          "iconPath": "assets/index.png",
+          "selectedIconPath": "assets/index-active.png"
+        },
+        {
+          "pagePath": "pages/recruitment/recruitment",
+          "text": "招聘",
+          "iconPath": "assets/message.png",
+          "selectedIconPath": "assets/message-active.png"
+        },
+        {
+          "pagePath": "pages/notice/notice",
+          "text": "通知",
+          "iconPath": "assets/index.png",
+          "selectedIconPath": "assets/index-active.png"
+        },
+        {
+          "pagePath": "pages/mine/mine",
+          "text": "我",
+          "iconPath": "assets/me.png",
+          "selectedIconPath": "assets/me-active.png"
+        }
+      ]
+    }
+}

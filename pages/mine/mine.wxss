@@ -1,0 +1,48 @@
+.user {
+  padding: 12px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  float: left;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: red;
+}
+
+.info {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  line-height: 32px;
+}
+
+.more {
+  line-height: 24px;
+  color: #555;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cell-class {
+  flex-direction: row;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #eee;
+}
+.leftIcon {
+  width: 20px;
+  height: 20px;
+  /*注意：必须设置float，否则不显示  */
+  float: left;
+  background-color: red;
+}

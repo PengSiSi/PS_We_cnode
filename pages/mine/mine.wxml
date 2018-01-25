@@ -1,0 +1,36 @@
+<!--pages/mine/mine.wxml-->
+<view class='container'>
+    <view class="user">
+      <image src="{{user.avatar_url}}" class="avatar"></image>
+      <view class="info">
+        <view class="name">思思</view>
+        <view class="more">
+          <text class="time">注册时间：三个月前</text>
+          <text class="score">50积分</text>
+        </view>
+      </view>
+  </view>
+
+  <view class='zan-panel'>
+    <navigator class='cell-class'>
+      <image class='leftIcon'></image>
+      <view class='title'>最近参与的话题</view>
+    </navigator>
+    <navigator class='cell-class'>
+      <image class='leftIcon'></image>
+      <view class='title'>最近创建的话题</view>
+    </navigator>
+    <navigator class='cell-class'>
+      <image class='leftIcon'></image>
+      <view class='title'>收藏的话题</view>
+    </navigator>
+    <navigator class='cell-class'>
+      <image class='leftIcon'></image>
+      <view class='title'>最近参与的话题</view>
+    </navigator>
+    <navigator class='cell-class'>
+      <image class='leftIcon'></image>
+      <view class='title'>最近参与的话题</view>
+    </navigator>
+  </view>
+</view>
